@@ -1,0 +1,9 @@
+[package]
+name = "db_todo"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+dotenv = "0.15.0"
+sqlx = { version = "0.7.4", features = ["postgres", "runtime-tokio-rustls"] }
+tokio = { version = "1.38.0", features = ["full"] }
